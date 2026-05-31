@@ -14,7 +14,7 @@
 **🛠️ Tech Stack \& Tools Breakdown**
 
  
-**This repository serves as the codebase backing for my central [Developer Portfolio]:** [ https://StamatisKamisakis.github.io/my-portfolio/] 
+**This repository serves as the codebase backing for my central [Developer Portfolio]:** [https://StamatisKamisakis.github.io/my-portfolio/](https://StamatisKamisakis.github.io/my-portfolio/) 
 
 
 
