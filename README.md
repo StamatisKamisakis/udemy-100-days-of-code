@@ -27,9 +27,7 @@
  Deployment \& Hosting\*\*: Vercel, Replit, GitHub Pages
 
 
-# \*This repository serves as the codebase backing for my central \[Developer Portfolio]([https://github.io](https://StamatisKamisakis.github.io/my-portfolio/
-
-)).\*
+# \*This repository serves as the codebase backing for my central \[Developer Portfolio]([https://StamatisKamisakis.github.io/my-portfolio/)).\*
 
 
 
