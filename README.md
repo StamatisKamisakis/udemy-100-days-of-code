@@ -17,17 +17,7 @@
 # \## 🛠️ Tech Stack \& Tools Breakdown
 
  
-
- Throughout these milestone challenges, I am practicing and strengthening my skills in:
-
- Frontend Development\*\*: React, TypeScript, Tailwind CSS, Vite, HTML5/CSS3
-
- Automation \& Logic\*\*: Python (Advanced Libraries, Scripting, APIs)
-
- Deployment \& Hosting\*\*: Vercel, Replit, GitHub Pages
-
-
-# \*This repository serves as the codebase backing for my central \[Developer Portfolio]([https://StamatisKamisakis.github.io/my-portfolio/)).\*
+This repository serves as the codebase backing for my central \[Developer Portfolio]([https://StamatisKamisakis.github.io/my-portfolio/)).\*
 
 
 
