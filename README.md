@@ -8,6 +8,6 @@ Every project is organized cleanly into its own directory:
 
 *(New projects will be added here as I progress through the course...)*
 
-## 🛠️ Tech Stack & Tools Breakdown
+🌐 Live Demo
 
 This repository serves as the codebase backing for my central [Developer Portfolio](https://StamatisKamisakis.github.io/my-portfolio/).
