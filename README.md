@@ -8,35 +8,28 @@
 
 # \## 📂 Project Showcase
 
-# 
 
 # Every project is organized cleanly into its own directory:
 
-# 
+(New projects will be added here as I progress through the course...)\*
 
-# \*   \*\*🎮 \[tic-tac-toe](./tic-tac-toe)\*\*: An interactive, modern Tic-Tac-Toe game built from scratch using React, Vite, and Tailwind CSS. Hosted live on Vercel.
-
-# \*   \*(New projects will be added here as I progress through the course...)\*
-
-# 
 
 # \## 🛠️ Tech Stack \& Tools Breakdown
 
-# 
+ 
 
-# Throughout these milestone challenges, I am practicing and strengthening my skills in:
+ Throughout these milestone challenges, I am practicing and strengthening my skills in:
 
-# \*   \*\*Frontend Development\*\*: React, TypeScript, Tailwind CSS, Vite, HTML5/CSS3
+ Frontend Development\*\*: React, TypeScript, Tailwind CSS, Vite, HTML5/CSS3
 
-# \*   \*\*Automation \& Logic\*\*: Python (Advanced Libraries, Scripting, APIs)
+ Automation \& Logic\*\*: Python (Advanced Libraries, Scripting, APIs)
 
-# \*   \*\*Deployment \& Hosting\*\*: Vercel, Replit, GitHub Pages
+ Deployment \& Hosting\*\*: Vercel, Replit, GitHub Pages
 
-# 
 
-# \---
+# \*This repository serves as the codebase backing for my central \[Developer Portfolio]([https://github.io](https://StamatisKamisakis.github.io/my-portfolio/
 
-# \*This repository serves as the codebase backing for my central \[Developer Portfolio](https://github.io).\*
+)).\*
 
 
 
