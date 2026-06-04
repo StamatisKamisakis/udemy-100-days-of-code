@@ -6,7 +6,7 @@ An automated desktop GUI application built with Python that allows users to uplo
 
 ## 📸 Application Demo
 
-[![Application Preview](Day%2085.gif)](https://github.com/StamatisKamisakis/udemy-100-days-of-code/blob/main/Day%2085/Day%2085.gif)
+👉 Check out the [Application Preview](https://github.com/StamatisKamisakis/udemy-100-days-of-code/blob/main/Day%2085/Day%2085.gif) to see the app in action!
 
 ---
 
