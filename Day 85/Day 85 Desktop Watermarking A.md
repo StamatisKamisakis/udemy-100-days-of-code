@@ -6,9 +6,7 @@ An automated desktop GUI application built with Python that allows users to uplo
 
 ## 📸 Application Demo
 
-![Application Preview](Day%2085.mp4)
-
-*(Note: If you convert your video to a GIF later, you can change this line to `![Application Preview](Day%2085.gif)`)*
+[![Application Preview](Day%2085.gif)](https://github.com/StamatisKamisakis/udemy-100-days-of-code/blob/main/Day%2085/Day%2085.gif)
 
 ---
 
