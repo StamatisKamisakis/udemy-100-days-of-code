@@ -1,6 +1,6 @@
-# 🚀 [Udemy: 100 Days of Code - The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/?couponCode=MT260602G3)
+# 🚀 Udemy: 100 Days of Code - The Complete Python Pro Bootcamp
 
-Welcome to my central repository for the **100 Days of Code (Day 82-100)** Udemy course! This space serves as a curated showcase of all the advanced capstone projects, full-stack applications, and interactive games I develop throughout the bootcamp.
+Welcome to my central repository for the **100 Days of Code** Udemy course! This space serves as a curated showcase of all the advanced capstone projects, full-stack applications, and interactive games I develop throughout the bootcamp.
 
 ## 📂 Project Showcase
 
