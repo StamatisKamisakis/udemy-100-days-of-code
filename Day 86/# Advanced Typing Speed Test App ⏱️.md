@@ -39,13 +39,6 @@ A clean, modern, and lightweight Desktop Application built with Python and Tkint
 * **`calculate_accuracy`**: Calculates character matches dividing correct indices by total length typed.
 * **`update_countdown`**: Uses Tkinter’s `.after()` loop method to cleanly decrement remaining seconds without freeze issues.
 
-## Project Structure 📁
-
-```text
-├── main.py          # Main application file containing Python source code
-└── README.md        # Documentation and guide file
-```
-
 ## License 📄
 
 This project is open-source and available under the [MIT License](LICENSE).
