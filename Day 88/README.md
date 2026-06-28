@@ -1,5 +1,6 @@
 # Day 88 — Cafe & Wifi (Flask + SQLAlchemy)
 
+
 A Flask web app that displays a list of cafes in London suitable for working from — showing wifi availability, power sockets, toilets, ability to take calls, seating capacity, and coffee price for each one. The data is served from a SQLite database (built on Day 66's Cafe & Wifi API) using SQLAlchemy as the ORM, and rendered through Jinja2 templates.
 
 🔗 **Live demo:** https://stamatiskamisakis1992.pythonanywhere.com/
