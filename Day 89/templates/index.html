@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>My Todo List</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>📝 My Todo List</h1>
+
+    <!-- Add new task form -->
+    <form action="{{ url_for('add') }}" method="POST" class="add-form">
+      <input type="text" name="title" placeholder="New task..." required>
+      <input type="text" name="category" placeholder="Category (e.g. Work)">
+      <select name="priority">
+        <option value="Low">Low</option>
+        <option value="Medium" selected>Medium</option>
+        <option value="High">High</option>
+      </select>
+      <button type="submit">Add</button>
+    </form>
+
+    <!-- Category filter -->
+    <div class="filter-bar">
+      <a href="{{ url_for('index') }}" class="{{ 'active' if selected_category == 'All' else '' }}">All</a>
+      {% for cat in all_categories %}
+        <a href="{{ url_for('index', category=cat) }}"
+           class="{{ 'active' if selected_category == cat else '' }}">{{ cat }}</a>
+      {% endfor %}
+    </div>
+
+    <!-- Task list -->
+    <ul class="todo-list">
+      {% for todo in todos %}
+        <li class="{{ 'done' if todo.done else '' }} priority-{{ todo.priority|lower }}">
+          <a href="{{ url_for('toggle', todo_id=todo.id) }}" class="check-circle">
+            {{ '✔' if todo.done else '○' }}
+          </a>
+          <span class="title">{{ todo.title }}</span>
+          <span class="badge category">{{ todo.category }}</span>
+          <span class="badge priority">{{ todo.priority }}</span>
+          <a href="{{ url_for('delete', todo_id=todo.id) }}" class="delete-btn">✕</a>
+        </li>
+      {% else %}
+        <li class="empty">No tasks yet. Add one! 🎉</li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>
