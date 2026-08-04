@@ -4,6 +4,10 @@ A Flask website that finds the 10 most common colours in any uploaded image, usi
 
 Built as part of the **100 Days of Code** Udemy course assignment (Day 92).
 
+🔗 **[Live Demo](https://color-palette-generator-8f8h.onrender.com/)**
+
+*(Hosted on Render's free tier — the server may take 30-60 seconds to wake up if it's been inactive.)*
+
 ---
 
 ## ✨ Features
