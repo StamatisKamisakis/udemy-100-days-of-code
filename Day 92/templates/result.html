@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Colour Palette</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="eyebrow">Colour Palette Generator</div>
+    <h1>Your top 10 colours</h1>
+    <p class="subtitle">Click any swatch to copy its hex code.</p>
+
+    <div class="result-wrapper">
+        <img class="source-image" src="{{ image_url }}" alt="Uploaded image">
+
+        <div class="palette">
+            {% for color in colors %}
+            <div class="swatch"
+                 style="background-color: {{ color.hex }};"
+                 onclick="copyHex('{{ color.hex }}', this)">
+                <span class="swatch-hex">{{ color.hex }}</span>
+                <span class="swatch-pct">{{ color.percentage }}%</span>
+            </div>
+            {% endfor %}
+        </div>
+
+        <p class="copy-hint" id="copy-hint">Click a swatch to copy its hex code</p>
+
+        <a class="back-link" href="/">← Try another image</a>
+    </div>
+
+    <script>
+        function copyHex(hex, element) {
+            navigator.clipboard.writeText(hex);
+            const hint = document.getElementById("copy-hint");
+            hint.textContent = "Copied " + hex + " to clipboard!";
+        }
+    </script>
+</body>
+</html>

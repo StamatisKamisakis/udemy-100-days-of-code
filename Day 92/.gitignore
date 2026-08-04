@@ -1,0 +1,7 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Uploaded images (user-generated at runtime, not part of the source code)
+static/uploads/*
+!static/uploads/.gitkeep

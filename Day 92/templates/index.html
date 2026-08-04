@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Colour Palette Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="eyebrow">Colour Palette Generator</div>
+    <h1>Find the colours hiding in any image</h1>
+    <p class="subtitle">
+        Upload a photo and we'll analyze every pixel to find its 10 most
+        common colours — with hex codes ready to copy into your CSS.
+    </p>
+
+    <form class="dropzone" action="/upload" method="post" enctype="multipart/form-data">
+        <span>Choose an image (JPG, PNG, WEBP)</span>
+        <input type="file" name="image" accept="image/*" required>
+        <button class="submit-btn" type="submit">Extract Colours</button>
+    </form>
+</body>
+</html>
