@@ -4,7 +4,7 @@ import requests
 st.set_page_config(page_title="Book Search API", page_icon="📚")
 
 st.title("📚 Book Finder (REST API)")
-st.caption("Day 33 Project - 100 Days of Code (Python)")
+st.caption("Day 96 Project - 100 Days of Code (Python)")
 
 # User input field
 query = st.text_input("Enter a book title or topic:", placeholder="e.g. Harry Potter, Python")
