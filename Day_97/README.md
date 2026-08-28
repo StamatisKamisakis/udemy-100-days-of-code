@@ -4,6 +4,13 @@ A full-stack e-commerce web application built using Python, Streamlit, SQLAlchem
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live running application here:  
+👉 **[Launch E-Commerce App](https://bdgnh6zhhk4vyqzugwyqtw.streamlit.app/)**
+
+---
+
 ## ✨ Features
 
 * **User Authentication:** Secure registration and login using hashed passwords with `bcrypt`.
